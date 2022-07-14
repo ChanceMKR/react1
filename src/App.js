@@ -130,7 +130,7 @@ function App() {
   }
   return (
     <div className="App">
-      <Header title="WEB" onChangeMode={()=>{
+      <Header title="WEB2" onChangeMode={()=>{
         setMode('WELCOME');
       }}></Header>
       <Nav topics={topics} onChangeMode={(_id)=>{
